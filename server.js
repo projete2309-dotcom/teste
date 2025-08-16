@@ -15,7 +15,7 @@ app.use(express.json());
 let posturaData = { cervical: 232, toracica: 434, lombar: 340 };
 
 // Rota POST para atualizar os dados
-app.post('/postura', (req, res) => {
+app.post('/, (req, res) => {
   posturaData = req.body;
   console.log('Recebi JSON:', req.body);
   res.send('JSON recebido com sucesso!');
