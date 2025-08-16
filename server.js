@@ -5,6 +5,7 @@ const port = process.env.PORT || 3000;
 
 // Permite receber JSON no corpo da requisição
 app.use(express.json());
+app.use(cors()); // habilita CORS para qualquer origem
 
 app.post('/', (req, res) => {
   posturaData = req.body; // atualiza os dados
