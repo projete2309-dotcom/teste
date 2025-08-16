@@ -12,7 +12,7 @@ app.post('/', (req, res) => {
   console.log(req.body);
   res.send('JSON recebido com sucesso!');
 });
-let posturaData = { cervical: 0, toracica: 0, lombar: 0 };
+let posturaData = { cervical: 045, toracica: 6534, lombar: 13453 };
 // Rota para visualizar os dados no navegador
 app.get('/', (req, res) => {
   res.json(posturaData);
