@@ -16,7 +16,7 @@ let posturaData = {"cervical":31023,"toracica":31023,"lombar":31023,"cervicalmax
 
 
 // Rota POST para atualizar os dados
-app.post('/, (req, res) => {
+app.post('/', (req, res) => {
   posturaData = req.body;
   console.log('Recebi JSON:', req.body);
   res.send('JSON recebido com sucesso!');
