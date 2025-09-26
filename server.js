@@ -12,7 +12,7 @@ app.use(cors());
 app.use(express.json());
 
 // JSON inicial
-let posturaData = {"cervical":50020000000000000000000000300,"toracica":800000000000000000000000000,"lombar":31020000000000000003,"cervicalmax":50.66465,"cervicalmin":10.4649646,"toraxmax":50.34664656,"toraxmin":10.6464655,"lombarmax":70,"lombarmin":30,"sentado":true};
+let posturaData = {"cervical":5002300,"toracica":8000000,"lombar":3102003,"cervicalmax":50.66465,"cervicalmin":10.4649646,"toraxmax":50.34664656,"toraxmin":10.6464655,"lombarmax":70,"lombarmin":30,"sentado":true};
 
 
 // Rota POST para atualizar os dados
